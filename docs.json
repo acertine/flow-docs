@@ -16,7 +16,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "docs/flow/index",
+              "docs/flow/getting-started/index",
               "docs/flow/getting-started/introduction",
               "docs/flow/getting-started/navigating-the-dashboard",
               "docs/flow/getting-started/setting-up-your-account",
@@ -118,12 +118,7 @@
         "label": "Support",
         "href": "mailto:support@acertine.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Go to Flow",
-      "href": "https://flow.acertine.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
