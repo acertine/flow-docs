@@ -16,7 +16,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "index",
+              "docs/flow/index",
               "docs/flow/getting-started/introduction",
               "docs/flow/getting-started/navigating-the-dashboard",
               "docs/flow/getting-started/setting-up-your-account",
