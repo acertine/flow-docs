@@ -11,78 +11,78 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Flow Documentation",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting Started",
             "pages": [
               "index",
-              "flow-help/getting-started/introduction",
-              "flow-help/getting-started/navigating-the-dashboard",
-              "flow-help/getting-started/setting-up-your-account",
-              "flow-help/getting-started/themes"
+              "docs/flow/getting-started/introduction",
+              "docs/flow/getting-started/navigating-the-dashboard",
+              "docs/flow/getting-started/setting-up-your-account",
+              "docs/flow/getting-started/themes"
             ]
           },
           {
             "group": "Client Management",
             "pages": [
-              "flow-help/client-management/adding-and-managing-clients",
-              "flow-help/client-management/importing-clients-via-csv",
-              "flow-help/client-management/cis-settings-for-clients"
+              "docs/flow/client-management/adding-and-managing-clients",
+              "docs/flow/client-management/importing-clients-via-csv",
+              "docs/flow/client-management/cis-settings-for-clients"
             ]
           },
           {
             "group": "Invoices",
             "pages": [
-              "flow-help/invoices/creating-your-first-invoice",
-              "flow-help/invoices/adding-and-managing-line-items",
-              "flow-help/invoices/setting-up-time-based-invoices",
-              "flow-help/invoices/set-up-recurring-invoices",
-              "flow-help/invoices/using-invoice-templates",
-              "flow-help/invoices/sending-invoices-to-clients",
-              "flow-help/invoices/understanding-invoice-statuses"
+              "docs/flow/invoices/creating-your-first-invoice",
+              "docs/flow/invoices/adding-and-managing-line-items",
+              "docs/flow/invoices/setting-up-time-based-invoices",
+              "docs/flow/invoices/set-up-recurring-invoices",
+              "docs/flow/invoices/using-invoice-templates",
+              "docs/flow/invoices/sending-invoices-to-clients",
+              "docs/flow/invoices/understanding-invoice-statuses"
             ]
           },
           {
             "group": "Quotes",
             "pages": [
-              "flow-help/quotes/creating-and-sending-quotes",
-              "flow-help/quotes/converting-quotes-to-invoices"
+              "docs/flow/quotes/creating-and-sending-quotes",
+              "docs/flow/quotes/converting-quotes-to-invoices"
             ]
           },
           {
             "group": "Payments",
             "pages": [
-              "flow-help/payments/setting-up-stripe-connect",
-              "flow-help/payments/tracking-payments"
+              "docs/flow/payments/setting-up-stripe-connect",
+              "docs/flow/payments/tracking-payments"
             ]
           },
           {
             "group": "Construction Industry Scheme",
             "pages": [
-              "flow-help/construction-industry-scheme/understanding-construction-industry-scheme",
-              "flow-help/construction-industry-scheme/creating-construction-industry-scheme-invoices"
+              "docs/flow/construction-industry-scheme/understanding-construction-industry-scheme",
+              "docs/flow/construction-industry-scheme/creating-construction-industry-scheme-invoices"
             ]
           },
           {
             "group": "Reports and Analytics",
             "pages": [
-              "flow-help/reports-and-analytics/understanding-financial-reports"
+              "docs/flow/reports-and-analytics/understanding-financial-reports"
             ]
           },
           {
             "group": "Settings and Customisation",
             "pages": [
-              "flow-help/settings-and-customisation/business-information",
-              "flow-help/settings-and-customisation/invoice-defaults",
-              "flow-help/settings-and-customisation/profile-settings"
+              "docs/flow/settings-and-customisation/business-information",
+              "docs/flow/settings-and-customisation/invoice-defaults",
+              "docs/flow/settings-and-customisation/profile-settings"
             ]
           },
           {
             "group": "Troubleshooting",
             "pages": [
-              "flow-help/troubleshooting/common-issues-and-solutions",
-              "flow-help/troubleshooting/browser-compatibility"
+              "docs/flow/troubleshooting/common-issues-and-solutions",
+              "docs/flow/troubleshooting/browser-compatibility"
             ]
           }
         ]
