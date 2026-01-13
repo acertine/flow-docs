@@ -1,0 +1,112 @@
+---
+title: "Blog"
+description: "Latest updates, announcements, and insights"
+icon: "newspaper"
+---
+
+Welcome to our blog! Here you'll find the latest updates, announcements, and insights.
+
+<style>{`
+  .blog-preview-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid var(--mint-border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+  }
+  .blog-preview-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .blog-preview-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  .blog-preview-content {
+    padding: 1.5rem;
+  }
+  .blog-preview-date {
+    font-size: 0.875rem;
+    color: var(--mint-text-secondary);
+    margin-bottom: 0.5rem;
+  }
+  .blog-preview-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .blog-preview-description {
+    margin: 0;
+    color: var(--mint-text-secondary);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+`}</style>
+
+<Columns cols={3}>
+
+<a href="/blog/date-range-quantity-calculation-enhanced-discount-management" className="blog-preview-card">
+  <img 
+    src="/img/posts/date-range.png" 
+    alt="Date Range Quantity Calculation & Enhanced Discount Management"
+  />
+  <div className="blog-preview-content">
+    <div className="blog-preview-date">November 18, 2025</div>
+    <h3 className="blog-preview-title">Date Range Quantity Calculation & Enhanced Discount Management</h3>
+    <p className="blog-preview-description">
+      We're excited to announce several powerful new features that make creating invoices and quotes even more efficient and flexible.
+    </p>
+  </div>
+</a>
+
+<a href="/blog/getting-started-with-mintlify" className="blog-preview-card">
+  <img 
+    src="/images/hero-light.png" 
+    alt="Getting Started with Mintlify"
+  />
+  <div className="blog-preview-content">
+    <div className="blog-preview-date">January 15, 2024</div>
+    <h3 className="blog-preview-title">Getting Started with Mintlify</h3>
+    <p className="blog-preview-description">
+      Learn how to create beautiful documentation sites with Mintlify in minutes
+    </p>
+  </div>
+</a>
+
+<a href="/blog/best-practices-for-documentation" className="blog-preview-card">
+  <img 
+    src="/images/hero-dark.png" 
+    alt="Best Practices for Technical Documentation"
+  />
+  <div className="blog-preview-content">
+    <div className="blog-preview-date">January 20, 2024</div>
+    <h3 className="blog-preview-title">Best Practices for Technical Documentation</h3>
+    <p className="blog-preview-description">
+      Learn the essential best practices for writing clear, effective technical documentation
+    </p>
+  </div>
+</a>
+
+<a href="/blog/announcing-new-features" className="blog-preview-card">
+  <img 
+    src="/images/checks-passed.png" 
+    alt="Announcing New Features"
+  />
+  <div className="blog-preview-content">
+    <div className="blog-preview-date">February 1, 2024</div>
+    <h3 className="blog-preview-title">Announcing New Features</h3>
+    <p className="blog-preview-description">
+      Exciting updates and new features coming to Mintlify
+    </p>
+  </div>
+</a>
+
+</Columns>
